@@ -72,11 +72,11 @@ const ContactUs = () => {
             <h4 className="mb-4">Contact Information</h4>
               <ul className="list-unstyled">
                 <li>
-                  <FaPhone className="icon" /> <a href="tel:+1234567890">+123 456 7890</a>
+                  <FaPhone className="icon" /> <a href="tel:+233543130024">+233543130024</a>
                 </li>
                 <li>
                   <FaWhatsapp className="icon" />{" "}
-                  <a href="https://wa.me/+233248171675">+233248171675</a>
+                  <a href="https://wa.me/+233552011456">+233552011456</a>
                 </li>
                 <li>
                   <FaEnvelope className="icon" />{" "}
