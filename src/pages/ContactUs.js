@@ -80,14 +80,14 @@ const ContactUs = () => {
                 </li>
                 <li>
                   <FaEnvelope className="icon" />{" "}
-                  <a href="mailto:careconnect@gmail.com">
+                  <a href="mailto:amumaris517@gmail.com">
                     careconnect@gmail.com
                   </a>
                 </li>
               </ul>
             </div>
             <div className="col-md-4 contact-info">
-              <form className="contact-form" onSubmit={handleSubmit}>
+            <form action="https://formsubmit.co/amumaris517@email.com" method="POST">
                 <div className="mb-3">
                   <label htmlFor="name" className="form-label">
                     Name

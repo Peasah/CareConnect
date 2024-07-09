@@ -1,5 +1,6 @@
 import React from "react";
 import "./donationMessage.css";
+import { Link } from "react-router-dom";
 
 const DonationMessage = () => {
   return (
@@ -12,7 +13,9 @@ const DonationMessage = () => {
         in making a meaningful impact by donating today. Together, we can create
         a world where everyone has what they need to thrive.
       </p>
-      <button className="donate-button"><a href="./Donate">Donate Now</a></button>
+      <Link className="nav-link" to="/donate"><button className="btn btn-primary rounded p-2">
+                  Donate Now
+            </button></Link>
     </div>
   );
 };
