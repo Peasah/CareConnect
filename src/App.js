@@ -7,6 +7,7 @@ import Request from './pages/Request';
 import DonateForm from './pages/Donate';
 import Home from './pages/Home';
 import Pictures from './pages/Pictures';
+import ContactUs from './pages/ContactUs';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/request" element={<Request />} />
         <Route path="/donate" element={<DonateForm />} />
         <Route path="/pictures" element={<Pictures/>} />
+        <Route path="/contact" element={<ContactUs />} />
       </Routes>
     </Router>
   );
